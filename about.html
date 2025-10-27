@@ -1,68 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us | SmartWay Logistics</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Goyal Transport Company - Your trusted broker for cereal & grain transportation across India">
+    <title>About Goyal Transport Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="nav-logo">🚛 SmartWay Logistics</div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="service.html">Services</a>
-        <a href="shippers.html">Shippers</a>
-        <a href="truck-owners.html">Truck Owners</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="nav-logo">
+                <i class="fas fa-truck-moving"></i>
+                Goyal Transport Company
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="truck-owners.html">For Truck Owners</a></li>
+                <li><a href="shippers.html">For Shippers</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <h1>About SmartWay Logistics</h1>
-    <p>
-      Bridging the gap between shippers and truck owners, one delivery at a time.
-    </p>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 350px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>About Goyal Transport Company</h1>
+                <p>Connecting truck owners with goods sellers, specializing in safe and reliable transportation of cereals including wheat, rice, and other dry cargo across India.</p>
+            </div>
+        </div>
+    </section>
 
-  <section>
-    <div class="card">
-      <h2>Our Story</h2>
-      <p>
-        Founded with a passion for efficient, transparent logistics, SmartWay Logistics unites years of industry expertise with cutting-edge technology. Our mission: make goods movement in India smooth for everyone — from small businesses to enterprise-scale shippers.
-      </p>
-    </div>
-    <div class="features-grid">
-      <div class="card">
-        <h3>🚚 Vision</h3>
-        <p>To be India’s most trusted logistics partner for shippers and truckers alike.</p>
-      </div>
-      <div class="card">
-        <h3>💡 Values</h3>
-        <ul>
-          <li>Reliability in every load</li>
-          <li>Fairness to drivers & clients</li>
-          <li>Innovation-driven</li>
-          <li>Transparent communication</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>🤝 Meet the Team</h3>
-        <p>
-          A dedicated group of logistics professionals, tech enthusiasts, and support staff — all committed to keeping India's wheels turning.
-        </p>
-      </div>
-    </div>
-  </section>
+    <!-- Our Story -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story & Mission</h2>
+                <p>Building trust through reliable transportation services</p>
+            </div>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; color: var(--text-light); line-height: 1.8; margin-bottom: 20px; text-align: center;">
+                    Founded with a passion for logistics and service excellence, Goyal Transport Company began with a clear mission: to simplify the movement of cereals and grains across India. Our expertise, extensive network, and unwavering commitment to quality have made us the preferred choice for shippers and truck owners nationwide.
+                </p>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    &copy; 2025 SmartWay Logistics. All rights reserved. | Your trusted logistics partner
-  </footer>
-  <script src="script.js"></script>
+    <!-- Vision -->
+    <section style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Vision</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.2rem; color: var(--text-dark); line-height: 1.8; font-weight: 500;">
+                    To be India's most trusted name in cereal and grain transport, delivering reliability, safety, and value with every journey.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Goyal Transport Company?</h2>
+                <p>Six pillars of excellence that set us apart</p>
+            </div>
+            <div class="grid-3">
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Reliable Network</h3>
+                    <p>Access to verified truck owners across India with proven track records</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Competitive Rates</h3>
+                    <p>Best prices in the market without compromising on service quality</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock assistance for all your transportation needs</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Transparent Process</h3>
+                    <p>Clear communication and documentation at every step</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Quality Assurance</h3>
+                    <p>Stringent quality checks and verified partners for safe delivery</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Pan-India Coverage</h3>
+                    <p>Extensive network covering all major routes and cities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>Experienced professionals dedicated to your success</p>
+            </div>
+            <div class="grid-3">
+                <div class="card" style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white;">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Sunil Goyal</h3>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 10px;">Founder & Director</p>
+                    <p>Visionary leader with 15+ years in logistics</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Priya Sharma</h3>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 10px;">Manager - Operations</p>
+                    <p>Expert in supply chain management</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white;">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <h3>Ravi Kumar</h3>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 10px;">Lead Dispatcher</p>
+                    <p>Coordinating seamless logistics operations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Core Values</h2>
+                <p>The principles that guide everything we do</p>
+            </div>
+            <div class="grid-2" style="max-width: 900px; margin: 0 auto;">
+                <div class="card">
+                    <h3><i class="fas fa-handshake" style="color: var(--primary-color); margin-right: 10px;"></i> Integrity</h3>
+                    <p>Honesty and transparency in all business dealings</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-clock" style="color: var(--primary-color); margin-right: 10px;"></i> Reliability</h3>
+                    <p>Punctuality and consistency for every shipment</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-shield-alt" style="color: var(--primary-color); margin-right: 10px;"></i> Safety</h3>
+                    <p>Quality and security with every load we handle</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-users" style="color: var(--primary-color); margin-right: 10px;"></i> Customer Focus</h3>
+                    <p>Customer-centric approach in everything we do</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join Our Growing Network</h2>
+            <p>Experience the difference with Goyal Transport Company</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+                <a href="services.html" class="btn btn-secondary">View Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Goyal Transport Company</h3>
+                    <p>Your trusted partner in cereal & grain transportation across India.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Cereal Transportation</a></li>
+                        <li><a href="services.html">Wheat Transportation</a></li>
+                        <li><a href="services.html">Rice Transportation</a></li>
+                        <li><a href="services.html">Full Truck Load</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@goyaltransport.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Business Address, City, State, PIN Code, India</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Goyal Transport Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
