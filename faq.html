@@ -1,65 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FAQ | SmartWay Logistics</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about Goyal Transport Company's cereal, grain, truck owner, and shipper services.">
+    <title>FAQ - Goyal Transport Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="nav-logo">🚛 SmartWay Logistics</div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="service.html">Services</a>
-        <a href="shippers.html">Shippers</a>
-        <a href="truck-owners.html">Truck Owners</a>
-        <a href="faq.html" class="active">FAQ</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="nav-logo">
+                <i class="fas fa-truck-moving"></i>
+                Goyal Transport Company
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="truck-owners.html">For Truck Owners</a></li>
+                <li><a href="shippers.html">For Shippers</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <h1>FAQ</h1>
-    <p>
-      Your questions, answered. Didn't find what you need? <a href="contact.html" style="color:#fff;text-decoration:underline;">Contact us!</a>
-    </p>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 350px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common questions about our services for shippers and truck owners</p>
+            </div>
+        </div>
+    </section>
 
-  <section>
-    <div class="card">
-      <h2>Frequently Asked Questions</h2>
-      <ol>
-        <li>
-          <strong>How do I book a truck?</strong>
-          <p>Simply go to <a href="contact.html">Contact</a> and submit your shipment details — our team will connect you to available options immediately!</p>
-        </li>
-        <li>
-          <strong>Are my goods insured?</strong>
-          <p>Insurance is optional — you can choose full or partial coverage as you book your shipment.</p>
-        </li>
-        <li>
-          <strong>How do truck owners get paid?</strong>
-          <p>All payments are settled quickly and directly to registered bank accounts.</p>
-        </li>
-        <li>
-          <strong>Which cities do you cover?</strong>
-          <p>We operate nationwide across India — metros, tier-2, and rural destinations.</p>
-        </li>
-        <li>
-          <strong>Need more help?</strong>
-          <p>Just use our <a href="contact.html">Contact page</a> for any support.</p>
-        </li>
-      </ol>
-    </div>
-  </section>
+    <!-- FAQ Content -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions from Shippers</h2>
+                <p>Everything you need to know about shipping with us</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">What types of cereals does Goyal Transport Company transport?</button>
+                    <div class="faq-answer">
+                        <p>Goyal Transport Company specializes in transporting wheat, rice, maize, and other cereal products. We also handle other dry cargo and bulk materials with the same level of care and professionalism.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How does Goyal Transport Company ensure the quality of transportation?</button>
+                    <div class="faq-answer">
+                        <p>We work only with verified truck owners who maintain proper vehicles with sealed containers suitable for cereal transport. All our partners undergo stringent quality checks and maintain proper vehicle hygiene standards.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What areas does Goyal Transport Company cover?</button>
+                    <div class="faq-answer">
+                        <p>Goyal Transport Company provides pan-India coverage with an extensive network across all major routes and cities, including key grain-producing regions and consumption centers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How can I track my shipment with Goyal Transport Company?</button>
+                    <div class="faq-answer">
+                        <p>We provide regular updates throughout the transportation process via phone and SMS. Real-time tracking can be arranged upon request for additional peace of mind.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What are Goyal Transport Company's payment terms?</button>
+                    <div class="faq-answer">
+                        <p>We offer flexible payment terms based on mutual agreement. Contact us to discuss customized payment options that suit your business requirements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Why should I choose Goyal Transport Company?</button>
+                    <div class="faq-answer">
+                        <p>Goyal Transport Company offers reliable service, competitive rates, 24/7 support, transparent processes, and years of specialized experience in cereal and grain transportation across India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    &copy; 2025 SmartWay Logistics. Any more questions? We’re listening!
-  </footer>
-  <script src="script.js"></script>
+    <!-- Truck Owners FAQ -->
+    <section style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions from Truck Owners</h2>
+                <p>Learn about partnering with us</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">What are the requirements to join Goyal Transport Company's network?</button>
+                    <div class="faq-answer">
+                        <p>You need a valid commercial truck with proper documentation including RC (Registration Certificate), insurance, necessary permits, and vehicles suitable for cereal transportation. All documentation must be current and valid.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How does Goyal Transport Company assign loads?</button>
+                    <div class="faq-answer">
+                        <p>Loads are assigned based on vehicle availability, current location, truck capacity, and route suitability. We use smart matching to ensure efficient load assignment.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is Goyal Transport Company's payment process?</button>
+                    <div class="faq-answer">
+                        <p>Payments are processed as per agreed terms after successful delivery confirmation and receipt of necessary documentation. We ensure timely and reliable payment processing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Does Goyal Transport Company provide regular work?</button>
+                    <div class="faq-answer">
+                        <p>We strive to provide consistent work opportunities based on market demand and your availability. Our large network ensures regular business for active partners.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What support does Goyal Transport Company offer to truck owners?</button>
+                    <div class="faq-answer">
+                        <p>We provide 24/7 support, timely payments, regular work opportunities, transparent communication, documentation assistance, and dedicated partner support throughout your journey with us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- General FAQ -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>General Questions</h2>
+                <p>Other common questions about our company</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">When was Goyal Transport Company established?</button>
+                    <div class="faq-answer">
+                        <p>Goyal Transport Company has been serving the transportation industry with dedication and commitment to excellence, building a strong reputation in cereal and grain logistics.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What makes Goyal Transport Company different from others?</button>
+                    <div class="faq-answer">
+                        <p>Our specialization in cereal transportation, extensive verified network, competitive rates, transparent processes, and unwavering commitment to customer satisfaction sets us apart from competitors.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How can I contact Goyal Transport Company?</button>
+                    <div class="faq-answer">
+                        <p>You can reach us via phone at +91-XXXXX-XXXXX, email at info@goyaltransport.com, or through our contact form on the website. We're available Mon-Sat: 9:00 AM - 7:00 PM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Does Goyal Transport Company offer insurance for shipments?</button>
+                    <div class="faq-answer">
+                        <p>We work with insured truck owners and can facilitate insurance arrangements for your cargo. Contact us to discuss specific insurance requirements for your shipment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Still Have Questions?</h2>
+            <p>Our team is ready to answer all your queries</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="tel:+91XXXXXXXXXX" class="btn btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Goyal Transport Company</h3>
+                    <p>Your trusted partner in cereal & grain transportation across India.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Cereal Transportation</a></li>
+                        <li><a href="services.html">Wheat Transportation</a></li>
+                        <li><a href="services.html">Rice Transportation</a></li>
+                        <li><a href="services.html">Full Truck Load</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@goyaltransport.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Business Address, City, State, PIN Code, India</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Goyal Transport Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
