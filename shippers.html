@@ -1,184 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ship your cereals and grains securely with Goyal Transport Company. Request a quote and enjoy reliable service." />
-    <title>For Shippers - Goyal Transport Company</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shippers | SmartWay Logistics</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-truck-moving"></i>
-                    <span>Goyal Transport Company</span>
-                </div>
-                <nav class="nav" id="nav">
-                    <a href="index.html" class="nav-link">Home</a>
-                    <a href="about.html" class="nav-link">About</a>
-                    <a href="services.html" class="nav-link">Services</a>
-                    <a href="truck-owners.html" class="nav-link">For Truck Owners</a>
-                    <a href="shippers.html" class="nav-link active">For Shippers</a>
-                    <a href="faq.html" class="nav-link">FAQ</a>
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </nav>
-                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </header>
+  <header>
+    <nav>
+      <div class="nav-logo">🚛 SmartWay Logistics</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="shippers.html" class="active">Shippers</a>
+        <a href="truck-owners.html">Truck Owners</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section class="shippers-hero">
-            <div class="container">
-                <h1>Ship with Goyal Transport Company</h1>
-                <p>We offer reliable transportation solutions for goods sellers and manufacturers of cereals and grains all over India.</p>
-            </div>
-        </section>
+  <section class="hero">
+    <h1>Services for Shippers</h1>
+    <p>
+      Hassle-free booking | Transparent rates | Trusted transporters
+    </p>
+  </section>
 
-        <section class="shippers-benefits">
-            <div class="container">
-                <h2>Benefits for Goods Sellers</h2>
-                <ul>
-                    <li>Specialized handling and transportation for cereals and grains</li>
-                    <li>Quality assurance and proper vehicle hygiene</li>
-                    <li>Transparent pricing and no hidden charges</li>
-                    <li>Real-time shipment updates and tracking</li>
-                    <li>Pan-India coverage on all major routes</li>
-                    <li>Expert support and consultation for logistics planning</li>
-                </ul>
-            </div>
-        </section>
+  <section>
+    <div class="card">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>📍 Instant shipment booking — save time and effort</li>
+        <li>💸 Competitive pricing — no hidden charges</li>
+        <li>🔒 Trusted & verified transporters</li>
+        <li>🔎 Real-time shipment tracking</li>
+        <li>📞 Dedicated customer support</li>
+      </ul>
+      <div style="text-align:center;">
+        <a href="contact.html" class="btn">Post Your Load</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Ready to move your goods?</h3>
+      <p>
+        Whether big or small, from foodgrain to electronics — your shipment is in safe hands.
+      </p>
+      <div style="text-align:center;">
+        <a href="contact.html" class="btn">Get Started Now</a>
+      </div>
+    </div>
+  </section>
 
-        <section class="shippers-types">
-            <div class="container">
-                <h2>Types of Goods Handled</h2>
-                <ul>
-                    <li>Wheat</li>
-                    <li>Rice</li>
-                    <li>Maize</li>
-                    <li>Other cereals and dry cargo</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="shippers-qa">
-            <div class="container">
-                <h2>Why Goyal Transport Company?</h2>
-                <ul>
-                    <li>Proven track record with 500+ successful deliveries</li>
-                    <li>Stringent quality checks and insured trucks</li>
-                    <li>Flexible payment options</li>
-                    <li>Transparent documentation process</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="shippers-form">
-            <div class="container">
-                <h2>Request a Quote</h2>
-                <form id="shipperForm" class="form" autocomplete="off">
-                    <div class="form-group">
-                        <label for="name">Name <span class="required">*</span></label>
-                        <input id="name" name="name" required type="text" placeholder="Your Full Name" />
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone <span class="required">*</span></label>
-                        <input id="phone" name="phone" required type="tel" placeholder="Mobile Number" />
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input id="email" name="email" required type="email" placeholder="Email Address" />
-                    </div>
-                    <div class="form-group">
-                        <label for="goods-type">Type of Goods <span class="required">*</span></label>
-                        <select id="goods-type" name="goods-type" required>
-                            <option value="">Select Goods Type</option>
-                            <option value="Wheat">Wheat</option>
-                            <option value="Rice">Rice</option>
-                            <option value="Maize">Maize</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="origin">Origin <span class="required">*</span></label>
-                        <input id="origin" name="origin" required type="text" placeholder="Pick-up Location" />
-                    </div>
-                    <div class="form-group">
-                        <label for="destination">Destination <span class="required">*</span></label>
-                        <input id="destination" name="destination" required type="text" placeholder="Drop Location" />
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Additional Info</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Any additional details"></textarea>
-                    </div>
-                    <div class="form-submit">
-                        <button class="btn btn-primary" type="submit">Request Quote</button>
-                    </div>
-                    <div id="formSuccessShipper" class="form-success"></div>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>Goyal Transport Company</h3>
-                    <p>Your trusted partner in cereal & grain transportation across India.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Cereal Transportation</a></li>
-                        <li><a href="services.html">Wheat Transportation</a></li>
-                        <li><a href="services.html">Rice Transportation</a></li>
-                        <li><a href="services.html">Full Truck Load</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</li>
-                        <li><i class="fas fa-envelope"></i> info@goyaltransport.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Business Address, City, State, PIN Code, India</li>
-                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Goyal Transport Company. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-    <script src="script.js"></script>
+  <footer>
+    &copy; 2025 SmartWay Logistics. Made for Indian Shippers.
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
