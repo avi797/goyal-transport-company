@@ -1,181 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Truck owners partner with Goyal Transport Company for consistent work, timely payments, and transparent process." />
-    <title>For Truck Owners - Goyal Transport Company</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Truck Owners | SmartWay Logistics</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-truck-moving"></i>
-                    <span>Goyal Transport Company</span>
-                </div>
-                <nav class="nav" id="nav">
-                    <a href="index.html" class="nav-link">Home</a>
-                    <a href="about.html" class="nav-link">About</a>
-                    <a href="services.html" class="nav-link">Services</a>
-                    <a href="truck-owners.html" class="nav-link active">For Truck Owners</a>
-                    <a href="shippers.html" class="nav-link">For Shippers</a>
-                    <a href="faq.html" class="nav-link">FAQ</a>
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </nav>
-                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </header>
+  <header>
+    <nav>
+      <div class="nav-logo">🚛 SmartWay Logistics</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="shippers.html">Shippers</a>
+        <a href="truck-owners.html" class="active">Truck Owners</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section class="truck-owners-hero">
-            <div class="container">
-                <h1>Partner with Goyal Transport Company</h1>
-                <p>Unlock new opportunities and regular loads by joining our trusted network of truck owners dedicated to cereal and grain transport.</p>
-            </div>
-        </section>
+  <section class="hero">
+    <h1>Grow with Us — For Truck Owners</h1>
+    <p>
+      Find more loads | Get paid on time | Grow your transport business
+    </p>
+  </section>
 
-        <section class="truck-owners-benefits">
-            <div class="container">
-                <h2>Benefits for Truck Owners</h2>
-                <ul>
-                    <li>Consistent work aligned with your truck's availability and routes</li>
-                    <li>Timely payments after successful deliveries</li>
-                    <li>Transparent and simple load assignment processes</li>
-                    <li>24/7 support and assistance</li>
-                    <li>Flexible payment terms as per agreement</li>
-                    <li>Access to premium grain and cereal shipments</li>
-                </ul>
-            </div>
-        </section>
+  <section>
+    <div class="card">
+      <h2>Benefits for Truck Owners</h2>
+      <ul>
+        <li>💼 Regular and reliable load opportunities</li>
+        <li>💸 Timely payments, direct to your bank</li>
+        <li>🔒 Secure deals with verified shippers</li>
+        <li>📍 Choose trips that fit your route</li>
+        <li>🔧 Support with paperwork and compliance</li>
+      </ul>
+      <div style="text-align:center;">
+        <a href="contact.html" class="btn">Register Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Drive Your Business Forward</h3>
+      <p>
+        Join our network — let our technology keep you loaded and on the move, stress-free.
+      </p>
+      <div style="text-align:center;">
+        <a href="contact.html" class="btn">Join SmartWay</a>
+      </div>
+    </div>
+  </section>
 
-        <section class="truck-owners-steps">
-            <div class="container">
-                <h2>How to Join Our Network</h2>
-                <ol>
-                    <li>Own a valid, insured commercial truck suitable for cereal/dry cargo transport</li>
-                    <li>Provide documentation (RC, insurance, permits)</li>
-                    <li>Contact Goyal Transport Company or use our registration form below</li>
-                    <li>Get verified and onboarded to the partner network</li>
-                </ol>
-            </div>
-        </section>
-
-        <section class="truck-owners-support">
-            <div class="container">
-                <h2>What We Offer</h2>
-                <ul>
-                    <li>Dedicated partner support</li>
-                    <li>On-time payments with clear payment terms</li>
-                    <li>Regular business, depending on your vehicle size and location</li>
-                    <li>Transparent route and load matching</li>
-                    <li>Documentation management help</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="truck-owners-form">
-            <div class="container">
-                <h2>Register Your Truck</h2>
-                <form id="truckOwnerForm" class="form" autocomplete="off">
-                    <div class="form-group">
-                        <label for="name">Name <span class="required">*</span></label>
-                        <input id="name" name="name" required type="text" placeholder="Your Full Name" />
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone <span class="required">*</span></label>
-                        <input id="phone" name="phone" required type="tel" placeholder="Mobile Number" />
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input id="email" name="email" required type="email" placeholder="Email Address" />
-                    </div>
-                    <div class="form-group">
-                        <label for="truck-type">Truck Type <span class="required">*</span></label>
-                        <select id="truck-type" name="truck-type" required>
-                            <option value="">Select Truck Type</option>
-                            <option value="Container">Container</option>
-                            <option value="Open Truck">Open Truck</option>
-                            <option value="Tipper">Tipper</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="location">Location <span class="required">*</span></label>
-                        <input id="location" name="location" required type="text" placeholder="Current Location" />
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Additional Info</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Any additional details"></textarea>
-                    </div>
-                    <div class="form-submit">
-                        <button class="btn btn-primary" type="submit">Register Now</button>
-                    </div>
-                    <div id="formSuccessTruckOwner" class="form-success"></div>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>Goyal Transport Company</h3>
-                    <p>Your trusted partner in cereal & grain transportation across India.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Cereal Transportation</a></li>
-                        <li><a href="services.html">Wheat Transportation</a></li>
-                        <li><a href="services.html">Rice Transportation</a></li>
-                        <li><a href="services.html">Full Truck Load</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</li>
-                        <li><i class="fas fa-envelope"></i> info@goyaltransport.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Business Address, City, State, PIN Code, India</li>
-                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Goyal Transport Company. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-    <script src="script.js"></script>
+  <footer>
+    &copy; 2025 SmartWay Logistics. We stand with Indian Truck Owners.
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
