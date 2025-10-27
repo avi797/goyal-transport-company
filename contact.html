@@ -1,91 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Us | SmartWay Logistics</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    /* Extra styling for the contact form */
-    .contact-form {
-      max-width: 420px;
-      background: #fff;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      margin: 0 auto;
-      padding: 2.4rem 1.2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-    }
-    .contact-form input, .contact-form textarea {
-      padding: 0.7em;
-      border-radius: 6px;
-      border: 1px solid #c5d2e5;
-      font-size: 1rem;
-      font-family: 'Roboto', Arial, sans-serif;
-      outline: none;
-      transition: border 0.2s;
-    }
-    .contact-form input:focus, .contact-form textarea:focus {
-      border: 1.5px solid var(--primary);
-    }
-    .contact-form label {
-      font-weight: bold;
-      margin-bottom: 0.3em;
-      color: var(--primary-dark);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Goyal Transport Company for all wheat, rice, cereal, and bulk cargo transportation needs across India.">
+    <title>Contact - Goyal Transport Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="nav-logo">🚛 SmartWay Logistics</div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="service.html">Services</a>
-        <a href="shippers.html">Shippers</a>
-        <a href="truck-owners.html">Truck Owners</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html" class="active">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="nav-logo">
+                <i class="fas fa-truck-moving"></i>
+                Goyal Transport Company
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="truck-owners.html">For Truck Owners</a></li>
+                <li><a href="shippers.html">For Shippers</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <h1>Get In Touch</h1>
-    <p>
-      Ready to move? Have questions? Fill the form below, or call our support at <a href="tel:1800-123-4567" style="color:#fff;text-decoration:underline;">1800-123-4567</a>
-    </p>
-  </section>
-  
-  <section>
-    <form class="contact-form" autocomplete="off">
-      <label for="name">Name</label>
-      <input id="name" name="name" type="text" placeholder="Your Name" required />
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 350px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contact Goyal Transport Company</h1>
+                <p>We're here to help. Reach out for bookings, partnership, or any queries about our cereal and grain transportation services!</p>
+            </div>
+        </div>
+    </section>
 
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" placeholder="your@email.com" required />
+    <!-- Contact Info Cards -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Multiple ways to reach us</p>
+            </div>
+            <div class="grid-4">
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-phone" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>Phone</h3>
+                    <p style="color: var(--text-light); margin-bottom: 10px;">Call us directly</p>
+                    <a href="tel:+91XXXXXXXXXX" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">+91-XXXXX-XXXXX</a>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-envelope" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>Email</h3>
+                    <p style="color: var(--text-light); margin-bottom: 10px;">Send us an email</p>
+                    <a href="mailto:info@goyaltransport.com" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">info@goyaltransport.com</a>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>Address</h3>
+                    <p style="color: var(--text-light); margin-bottom: 10px;">Visit our office</p>
+                    <p style="color: var(--primary-color); font-weight: 600;">Business Address, City, State, PIN Code, India</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <i class="fas fa-clock" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>Business Hours</h3>
+                    <p style="color: var(--text-light); margin-bottom: 10px;">When we're available</p>
+                    <p style="color: var(--primary-color); font-weight: 600;">Mon-Sat: 9:00 AM - 7:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <label for="role">I am a...</label>
-      <select id="role" name="role" required>
-        <option value="">-- Select --</option>
-        <option value="shipper">Shipper</option>
-        <option value="truck-owner">Truck Owner</option>
-        <option value="other">Other</option>
-      </select>
+    <!-- Contact Form -->
+    <section style="background: var(--bg-light); padding: 80px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Send Us a Message</h2>
+                <p>Fill out the form and we'll get back to you within 24 hours</p>
+            </div>
+            <form id="contactForm" class="form">
+                <div class="form-group">
+                    <label for="name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <label for="service-type">I am a <span class="required">*</span></label>
+                    <select id="service-type" name="service-type" required>
+                        <option value="">Select</option>
+                        <option value="Shipper">Shipper / Goods Seller</option>
+                        <option value="Truck Owner">Truck Owner</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" required rows="5" placeholder="Tell us about your inquiry or requirements"></textarea>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+                <div id="formSuccessContact" class="form-success"></div>
+            </form>
+        </div>
+    </section>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+    <!-- Map Section -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us on Map</h2>
+                <p>Our office location</p>
+            </div>
+            <div style="border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-md);">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2412648718453!2d-73.98784268459395!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
 
-      <button type="submit" class="btn">Send Enquiry</button>
-    </form>
-  </section>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Immediate Assistance?</h2>
+            <p>Our team is ready to help you with your transportation needs</p>
+            <div class="hero-buttons">
+                <a href="tel:+91XXXXXXXXXX" class="btn btn-primary"><i class="fas fa-phone"></i> Call Now</a>
+                <a href="mailto:info@goyaltransport.com" class="btn btn-secondary"><i class="fas fa-envelope"></i> Email Us</a>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    &copy; 2025 SmartWay Logistics. Call us at 1800-123-4567
-  </footer>
-  <script src="script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Goyal Transport Company</h3>
+                    <p>Your trusted partner in cereal & grain transportation across India.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Cereal Transportation</a></li>
+                        <li><a href="services.html">Wheat Transportation</a></li>
+                        <li><a href="services.html">Rice Transportation</a></li>
+                        <li><a href="services.html">Full Truck Load</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91-XXXXX-XXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@goyaltransport.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Business Address, City, State, PIN Code, India</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Goyal Transport Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
